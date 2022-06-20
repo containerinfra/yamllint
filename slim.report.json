@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "engine": "darwin|Transformer|1.37.5|latest|latest",
+  "containerized": false,
+  "host_distro": {
+    "name": "",
+    "version": "",
+    "display_name": "Big Sur (11.6)"
+  },
+  "type": "build",
+  "state": "done",
+  "target_reference": "ghcr.io/containerinfra/yamllint:local",
+  "system": {
+    "type": "Linux",
+    "release": "5.10.76-linuxkit",
+    "distro": {
+      "name": "Debian GNU/Linux",
+      "version": "11",
+      "display_name": "Distroless"
+    }
+  },
+  "source_image": {
+    "identity": {
+      "id": "sha256:bd52de737d10c9e33aa01e77ba271ddd214f943d2639bb06f66b8478e5967371",
+      "tags": [
+        "local"
+      ],
+      "names": [
+        "ghcr.io/containerinfra/yamllint:local"
+      ]
+    },
+    "size": 58199791,
+    "size_human": "58 MB",
+    "create_time": "2022-06-20T18:21:34Z",
+    "author": "Bazel",
+    "docker_version": "",
+    "architecture": "amd64",
+    "user": "0",
+    "os": "linux",
+    "env_vars": [
+      "LANG=C.UTF-8",
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/busybox",
+      "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+      "PYTHONPATH=/usr/local/lib/python3.9/site-packages"
+    ],
+    "container_entry": {
+      "exe_path": ""
+    }
+  },
+  "minified_image_size": 14949361,
+  "minified_image_size_human": "15 MB",
+  "minified_image": "ghcr.io/containerinfra/yamllint.slim",
+  "minified_image_has_data": true,
+  "minified_by": 3.8931290106647367,
+  "artifact_location": "/tmp/docker-slim-state/.docker-slim-state/images/bd52de737d10c9e33aa01e77ba271ddd214f943d2639bb06f66b8478e5967371/artifacts",
+  "container_report_name": "creport.json",
+  "seccomp_profile_name": "ghcr.io-containerinfra-yamllint-seccomp.json",
+  "apparmor_profile_name": "ghcr.io-containerinfra-yamllint-apparmor-profile",
+  "image_stack": [
+    {
+      "is_top_image": true,
+      "id": "sha256:bd52de737d10c9e33aa01e77ba271ddd214f943d2639bb06f66b8478e5967371",
+      "full_name": "ghcr.io/containerinfra/yamllint:local",
+      "repo_name": "ghcr.io/containerinfra/yamllint",
+      "version_tag": "local",
+      "raw_tags": [
+        "ghcr.io/containerinfra/yamllint:local"
+      ],
+      "create_time": "2022-06-20T18:21:34Z",
+      "new_size": 58199791,
+      "new_size_human": "58 MB",
+      "instructions": [
+        {
+          "type": "RUN",
+          "time": "1970-01-01T00:00:00Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 2362086,
+          "size_human": "2.4 MB",
+          "command_snippet": "RUN [\"bazel\",\"build\",\"...\"]",
+          "command_all": "RUN [\"bazel\",\"build\",\"...\"]",
+          "system_commands": [
+            "[\"bazel\",\"build\",\"...\"]"
+          ]
+        },
+        {
+          "type": "RUN",
+          "time": "1970-01-01T00:00:00Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 17897906,
+          "size_human": "18 MB",
+          "command_snippet": "RUN [\"bazel\",\"build\",\"...\"]",
+          "command_all": "RUN [\"bazel\",\"build\",\"...\"]",
+          "system_commands": [
+            "[\"bazel\",\"build\",\"...\"]"
+          ]
+        },
+        {
+          "type": "RUN",
+          "time": "1970-01-01T00:00:00Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 1155491,
+          "size_human": "1.2 MB",
+          "command_snippet": "RUN [\"bazel\",\"build\",\"...\"]",
+          "command_all": "RUN [\"bazel\",\"build\",\"...\"]",
+          "system_commands": [
+            "[\"bazel\",\"build\",\"...\"]"
+          ]
+        },
+        {
+          "type": "RUN",
+          "time": "1970-01-01T00:00:00Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 2338150,
+          "size_human": "2.3 MB",
+          "command_snippet": "RUN [\"bazel\",\"build\",\"...\"]",
+          "command_all": "RUN [\"bazel\",\"build\",\"...\"]",
+          "system_commands": [
+            "[\"bazel\",\"build\",\"...\"]"
+          ]
+        },
+        {
+          "type": "RUN",
+          "time": "1970-01-01T00:00:00Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 31619391,
+          "size_human": "32 MB",
+          "command_snippet": "RUN [\"bazel\",\"build\",\"...\"]",
+          "command_all": "RUN [\"bazel\",\"build\",\"...\"]",
+          "system_commands": [
+            "[\"bazel\",\"build\",\"...\"]"
+          ]
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:11:22Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 208,
+          "size_human": "208 B",
+          "command_snippet": "RUN [\"COPY\",\"/usr/local/bin/yamllint\",\"/usr/...",
+          "command_all": "RUN [\"COPY\",\"/usr/local/bin/yamllint\",\"/usr/local/bin/yamllint\"]",
+          "system_commands": [
+            "[\"COPY\",\"/usr/local/bin/yamllint\",\"/usr/local/bin/yamllint\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:33Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 15,
+          "size_human": "15 B",
+          "command_snippet": "RUN [\"COPY\",\"test.yaml\",\"/tmp/test.yaml\"]",
+          "command_all": "RUN [\"COPY\",\"test.yaml\",\"/tmp/test.yaml\"]",
+          "system_commands": [
+            "[\"COPY\",\"test.yaml\",\"/tmp/test.yaml\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:33Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 214667,
+          "size_human": "215 kB",
+          "command_snippet": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-p...",
+          "command_all": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-packages/yamllint\",\"/usr/local/lib/python3.9/site-packages/yamllint\"]",
+          "system_commands": [
+            "[\"COPY\",\"/usr/local/lib/python3.9/site-packages/yamllint\",\"/usr/local/lib/python3.9/site-packages/yamllint\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:33Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 2467571,
+          "size_human": "2.5 MB",
+          "command_snippet": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-p...",
+          "command_all": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-packages/yaml\",\"/usr/local/lib/python3.9/site-packages/yaml\"]",
+          "system_commands": [
+            "[\"COPY\",\"/usr/local/lib/python3.9/site-packages/yaml\",\"/usr/local/lib/python3.9/site-packages/yaml\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:34Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 144306,
+          "size_human": "144 kB",
+          "command_snippet": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-p...",
+          "command_all": "RUN [\"COPY\",\"/usr/local/lib/python3.9/site-packages/pathspec\",\"/usr/local/lib/python3.9/site-packages/pathspec\"]",
+          "system_commands": [
+            "[\"COPY\",\"/usr/local/lib/python3.9/site-packages/pathspec\",\"/usr/local/lib/python3.9/site-packages/pathspec\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:34Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "command_snippet": "RUN [\"ENV\",\"PYTHONPATH=/usr/local/lib/python...",
+          "command_all": "RUN [\"ENV\",\"PYTHONPATH=/usr/local/lib/python3.9/site-packages\"]",
+          "system_commands": [
+            "[\"ENV\",\"PYTHONPATH=/usr/local/lib/python3.9/site-packages\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:34Z",
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "command_snippet": "RUN [\"ENTRYPOINT\",\"[/bin/sh]\"]",
+          "command_all": "RUN [\"ENTRYPOINT\",\"[/bin/sh]\"]",
+          "system_commands": [
+            "[\"ENTRYPOINT\",\"[/bin/sh]\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "type": "RUN",
+          "time": "2022-06-20T18:21:34Z",
+          "is_last_instruction": true,
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": true,
+          "layer_index": 0,
+          "size": 0,
+          "command_snippet": "RUN [\"CMD\",\"[/usr/local/bin/yamllint]\"]",
+          "command_all": "RUN [\"CMD\",\"[/usr/local/bin/yamllint]\"]",
+          "system_commands": [
+            "[\"CMD\",\"[/usr/local/bin/yamllint]\"]"
+          ],
+          "comment": "buildkit.dockerfile.v0",
+          "raw_tags": [
+            "ghcr.io/containerinfra/yamllint:local"
+          ]
+        }
+      ]
+    }
+  ]
+}
